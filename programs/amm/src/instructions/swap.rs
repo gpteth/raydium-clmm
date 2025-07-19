@@ -2321,6 +2321,7 @@ mod swap_test {
         use super::*;
         use proptest::prelude::*;
         use std::{convert::identity, u64};
+        use rand::Rng;
 
         use proptest::prop_assume;
         proptest! {

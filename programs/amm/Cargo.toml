@@ -20,6 +20,11 @@ enable-log = []
 devnet = []
 paramset = []
 idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+custom-heap = []
+custom-panic = []
+anchor-debug = []
+no-idl = []
+enable-power = []
 
 [dependencies]
 anchor-lang = { version = "0.31.0", features = ["init-if-needed"] }
